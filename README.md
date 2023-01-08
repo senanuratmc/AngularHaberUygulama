@@ -1,27 +1,25 @@
-# FirstApp
+# Uygulama Başlangıcı
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Bu proje [Angular CLI](https://github.com/angular/angular-cli) 15.0.4 versionu ile oluşturulmuştur.
 
-## Development server
+## Geliştirme Sunucusu
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Geliştirme sunucusu için `ng serve` i çalıştırın.Ziyaret için `http://localhost:4200/`. Kaynak dosyalardan herhangi birini değiştirirseniz uygulama otomatik olarak yeniden yüklenir.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Yeni bir bileşen oluşturmak için `ng generate component component-name`i çalıştırın. Ayrıca  `ng generate directive|pipe|service|class|guard|interface|enum|module`da kullanabilirsiniz.
 
-## Build
+## Proje Oluşumu 
+Projeyi oluşturmak için `ng build` yapın.Yapı artefaktları ‘dist/’ dizininde saklanır.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Birim testlerini Çalıştırma
 
-## Running unit tests
+Birim sınamalarını  [Karma](https://karma-runner.github.io) üzerinden yürütmek için “ng test” işlemini çalıştırın.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Uçtan Uca Testleri Çalıştırma
+İstediğiniz bir platform üzerinden uçtan uca testler gerçekleştirmek için "ng e2e" uygulamasını çalıştırın. Bu komutu kullanmak için önce uçtan uca testi uygulayan bir paket eklemeniz gerekir.
 
-## Running end-to-end tests
+## Ayrıntılı Yardım
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Angular CLI hakkında daha fazla yardım almak için 'ng help' kullanın ya da [Angular CLI Overview and Command Reference](https://angular.io/cli) sayfası üzerinden kontrol edin.
