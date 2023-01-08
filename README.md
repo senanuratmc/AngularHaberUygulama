@@ -6,7 +6,7 @@ Bu proje [Angular CLI](https://github.com/angular/angular-cli) 15.0.4 versionu i
 
 Geliştirme sunucusu için `ng serve` i çalıştırın.Ziyaret için `http://localhost:4200/`. Kaynak dosyalardan herhangi birini değiştirirseniz uygulama otomatik olarak yeniden yüklenir.
 
-## Code scaffolding
+## Kod Yapısı
 
 Yeni bir bileşen oluşturmak için `ng generate component component-name`i çalıştırın. Ayrıca  `ng generate directive|pipe|service|class|guard|interface|enum|module`da kullanabilirsiniz.
 
